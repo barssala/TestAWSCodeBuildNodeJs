@@ -1,0 +1,34 @@
+version: 0.0
+os: linux
+files:
+  - source: 
+    destination:
+  - source:
+    destination:
+permissions:
+  - object: 
+    owner: 
+    group: 
+    type:
+      - 
+hooks:
+  BeforeInstall:
+    - location: 
+      timeout: 
+      runas: 
+  AfterInstall:
+    - location: 
+      timeout: 
+      runas: 
+  ApplicationStart:
+    - location: 
+      timeout: 
+      runas: 
+  ApplicationStop:
+    - location: 
+      timeout:
+      runas:
+  ValidateService:
+    - location: 
+      timeout: 
+      runas: 
